@@ -1,0 +1,14 @@
+// main: ../style.scss
+
+.header {
+	/*padding: 20px 0;*/
+}
+
+.header__inner {
+	align-items: center;
+	
+	& a, 
+	& a:hover{
+		text-decoration: none;
+	}
+}

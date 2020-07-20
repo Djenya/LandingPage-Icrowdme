@@ -1,0 +1,66 @@
+// main: ../style.scss
+
+.btn {
+	padding: 15px 20px;
+	border: none;
+   border-radius: 10px;
+	font-size: 1.11rem;
+	font-weight: 600;
+	color: $white;
+	
+	&:hover {
+		color: $white;
+	}
+}
+
+.btn.bg-green {
+	background-color: $green;
+	
+	&:hover {
+		background-color: lighten($green,10%);
+	}
+}
+
+.btn.bg-green-dark {
+	background-color: darken($green,5%);
+	
+	&:hover {
+		background-color: $green;
+	}
+}
+
+.btn.bg-blue {
+	background-color: $blue;
+	
+	&:hover {
+		background-color: lighten($blue,10%);
+	}
+}
+
+.btn.bg-transporent {
+	color: lighten($gray,20%);
+	background-color: transporent;
+	border: 1px lighten($gray,20%) solid;
+	
+	&:hover {
+		color: $white;
+		background-color: $gray;
+	}
+}
+
+.btn.login {
+	padding: 10px 30px;
+   border-radius: 15px;
+   font-size: 0.76rem;
+}
+
+.btn.slides {
+	padding: 22px 42px;
+	width: auto;
+}
+
+.btn.blocks,
+.btn.projects {
+	font-size: 0.86rem;
+}
+

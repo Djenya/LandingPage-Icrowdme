@@ -1,0 +1,17 @@
+// main: ../style.scss
+
+.footer {
+	
+}
+
+.footer__brands {
+	padding-bottom: 45px;
+	border-bottom: 1px lighten($gray,60%) solid;
+}
+
+.footer__copyright {
+	padding: 25px 0;
+	text-align: center;
+	font-size: 0.76rem;
+	color: lighten($gray,30%);
+}

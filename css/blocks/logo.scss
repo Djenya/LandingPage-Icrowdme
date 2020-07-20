@@ -1,0 +1,27 @@
+// main: ../style.scss
+
+.logo {
+	display: flex;
+	
+	&:hover {
+		& .logo__name {
+			color: $black;
+		}	
+	}
+}
+
+.logo__img {
+	width: 33px;
+	height: 36px;
+	fill: $green;
+	overflow: visible;
+}
+
+.logo__name {
+	padding-left: 10px;
+	font-family: "Nunito";
+	font-weight: 400;
+	font-size: 1.82rem;
+	text-transform: uppercase;
+	color: $gray;	
+}

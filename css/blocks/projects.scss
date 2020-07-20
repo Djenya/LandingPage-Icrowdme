@@ -1,0 +1,129 @@
+// main: ../style.scss
+
+.projects-wrap {
+	margin-top: 50px;
+}
+
+.project__card {
+	margin: 0 auto;
+	max-width: 300px;
+	background-color: $gray-light;
+	border-radius: 10px;
+	border: 1px lighten($gray,50%) solid;
+	
+	&:hover .project__image {
+		-webkit-filter: grayscale(0);
+	}
+}
+
+/* top card */
+.project__top {
+	position: relative;
+	height: 225px;
+}
+
+.project__image {
+	position: absolute;
+	display: block;
+	left: -1px;
+	right: -1px;
+	top: -1px;
+	bottom: 0;
+	width: calc(100% + 2px);
+	height: 100%;
+	-webkit-filter: grayscale(100%);
+	
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.project__tag {
+	position: absolute;
+	bottom: 18px;
+	right: 15px;
+	padding: 10px 8px;
+	
+	color: $white;
+	background-color: $blue;
+	border-radius: 5px;
+	
+	& span {
+		font-weight: 600;
+	}
+}
+
+/* content card */
+.project__content {
+	padding: 1.2rem;
+}
+
+.project__title {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	
+	a {
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: underline;
+			color: $green;		
+		}
+	}
+}
+
+.project__text {
+	font-size: 0.76rem;
+	color: lighten($gray,30%);
+}
+
+.project__progress {
+	border-radius: 7px;
+   height: 14px;
+}
+
+.project__progress-bar {
+	background-color: $green;
+}
+
+.project__progress-desc {
+	position: relative;
+	font-size: 0.76rem;
+	font-weight: 600;
+	color: lighten($gray,30%);
+	padding: 15px 0;
+	margin-bottom: 25px;
+	
+	border-bottom: 1px lighten($gray,40%) solid;
+}
+
+.project__link {
+	position: relative;
+	text-decoration: none;
+	left: -20px;
+	font-size: 0.88rem;
+	font-weight: 600;
+	color: lighten($gray,30%);
+	
+	&:hover {
+		color: $green;
+		text-decoration: underline;
+	}
+	
+	&:after {
+		position: absolute;
+		display: block;
+		content: '';
+		left: calc(100% + 5px);
+		top: 4px;
+		width: 0;
+		height: 0;
+		border: 0.4rem solid transparent;
+		border-left: 0.7rem solid $green;
+	}
+}

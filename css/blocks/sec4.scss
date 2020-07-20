@@ -1,0 +1,23 @@
+// main: ../style.scss
+
+.sec4 {
+	
+}
+
+.sec4__inner {
+	padding: 0 21px;
+	
+	@media (max-width: $tablet) {
+		padding: 0;	
+	}
+}
+
+.sec4__title {
+	font-size: 1.70rem;
+	
+}
+
+.sec4__text {
+	padding: 25px 0;
+	color: lighten($gray,20%);
+}

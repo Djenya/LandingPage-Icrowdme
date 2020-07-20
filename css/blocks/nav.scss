@@ -1,0 +1,23 @@
+// main: ../style.scss
+
+.navbar-nav .nav-item {
+	padding: 5px 15px;
+	
+	.nav-link,
+	.dropdown-item {
+		font-weight: 600;
+		font-size: 0.76rem;
+		text-transform: uppercase;
+		color: lighten($gray,30%);
+		
+		&:hover {
+			text-decoration: underline;
+			color: $gray;
+		}
+	}
+
+	.nav-link {
+		padding: 0 !important;
+	}
+}
+

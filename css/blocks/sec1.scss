@@ -1,0 +1,24 @@
+// main: ../style.scss
+
+.sec1 {
+	margin-bottom: 100px;
+}
+
+.sec1__title {
+	padding: 45px 250px;
+	font-weight: 600;
+	font-size: 1.82rem;
+	line-height: 1.603;
+	text-transform: uppercase;
+	
+	@media (max-width: $tablet) {
+		padding: 45px 0;			
+	}
+}
+
+.sec1__text {
+	margin: 0 0 2rem;
+	padding: 0 40px;
+	font-size: 1.11rem;
+	color: lighten($gray,30%);
+}

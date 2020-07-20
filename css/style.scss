@@ -1,0 +1,61 @@
+@import "vars";
+@import "fonts";
+
+html {
+  font-size: 17.2px;
+   
+  @media (max-width: $mobile-sm) {
+    font-size: 14.2px;  
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: $gray;
+
+  &.no-scroll {
+      overflow: hidden;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: $gray;
+  
+  &:hover{
+     color: $green;  
+  }
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+/*blocks*/
+@import "blocks/header";
+@import "blocks/container";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/btn";
+@import "blocks/banner";
+@import "blocks/sec1";
+@import "blocks/sec2";
+@import "blocks/tabs";
+@import "blocks/sec3";
+@import "blocks/sec4";
+@import "blocks/projects";
+@import "blocks/sec5";
+@import "blocks/reviews";
+@import "blocks/footer";
