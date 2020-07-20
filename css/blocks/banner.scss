@@ -4,6 +4,13 @@
 	position: relative;
 	margin-bottom: 100px;
 	color: $white;
+	
+	@media (max-width: $tablet) {
+		margin-bottom: 60px;
+	}
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 40px;
+	}
 }
 
 
@@ -16,7 +23,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	
+ 
    
    &:before {
 		content: '';
@@ -28,6 +35,11 @@
 		left: 0;
    	background-color: rgba(66, 89, 72, .3);
    }
+
+
+   @media (max-width: $mobile-sm) {
+		min-height: 490px;
+	}
 }
 
 .banner__item.slide1 {

@@ -2,4 +2,11 @@
 
 .sec2 {
 	margin-bottom: 100px;
+	
+	@media (max-width: $tablet) {
+		margin-bottom: 60px;
+	}
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 40px;
+	}
 }

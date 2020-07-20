@@ -11,6 +11,13 @@
 	&:hover {
 		color: $white;
 	}
+
+	@media (max-width: $tablet) {
+		padding: 12px 15px;
+	}
+	@media (max-width: $mobile-sm) {
+		padding: 8px 10px;
+	}
 }
 
 .btn.bg-green {
@@ -52,11 +59,25 @@
 	padding: 10px 30px;
    border-radius: 15px;
    font-size: 0.76rem;
+   
+   @media (max-width: $tablet) {
+		padding: 8px 20px;
+	}
+	@media (max-width: $mobile-sm) {
+		padding: 8px 20px;
+	}
 }
 
 .btn.slides {
 	padding: 22px 42px;
 	width: auto;
+	
+	@media (max-width: $tablet) {
+		padding: 15px 30px;
+	}
+	@media (max-width: $mobile-sm) {
+		padding: 10px 20px;
+	}
 }
 
 .btn.blocks,

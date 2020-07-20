@@ -3,6 +3,13 @@
 .sec3 {
 	margin-bottom: 80px;
 	overflow: hidden;
+	
+	@media (max-width: $tablet) {
+		margin-bottom: 50px;
+	}
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 30px;
+	}
 }
 
 .sec3__block {

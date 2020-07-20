@@ -2,6 +2,13 @@
 
 .sec5 {
 	margin-bottom: 50px;
+	
+	@media (max-width: $tablet) {
+		margin-bottom: 40px;
+	}
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 30px;
+	}
 }
 
 .sec5-wrap {
@@ -13,6 +20,13 @@
 	background-repeat: no-repeat;
   	background-size: cover;
   	background-position: top;
+  	
+  	@media (max-width: $tablet) {
+		padding-bottom: 40px;
+	}
+	@media (max-width: $mobile-sm) {
+		padding-bottom: 30px;
+	}
 }
 
 .sec5__inner {
@@ -30,9 +44,23 @@
 	font-weight: 600;
 	font-size: 2.29rem; 
 	color: $green;
+	
+	@media (max-width: $tablet) {
+		padding-top: 80px;
+	}
+	@media (max-width: $mobile-sm) {
+		padding-top: 40px;
+	}
 }
 
 .sec5__text {
 	margin-bottom: 100px;
 	font-size: 1.11rem; 
+	
+	@media (max-width: $tablet) {
+		margin-bottom: 60px;
+	}
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 40px;
+	}
 }

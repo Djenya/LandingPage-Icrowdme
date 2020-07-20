@@ -19,9 +19,16 @@
 		opacity: .23;
 		
 		@media (max-width: $tablet) {
-				display: none;
+			display: none;
 		}
 	} 
+
+	@media (max-width: $tablet) {
+		margin-bottom: 60px;
+	}
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 40px;
+	}
 }
 
 .tabs__item {
@@ -84,6 +91,10 @@
 	width: 100%;
 	max-width: 115px;
 	height: auto;
+	
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 20px;
+	}
 }
 
 .tab-subtitle {

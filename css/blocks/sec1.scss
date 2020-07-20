@@ -2,6 +2,13 @@
 
 .sec1 {
 	margin-bottom: 100px;
+	
+	@media (max-width: $tablet) {
+		margin-bottom: 60px;
+	}
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 40px;
+	}
 }
 
 .sec1__title {
@@ -12,7 +19,7 @@
 	text-transform: uppercase;
 	
 	@media (max-width: $tablet) {
-		padding: 45px 0;			
+		padding: 35px 0;			
 	}
 }
 

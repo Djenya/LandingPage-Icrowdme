@@ -2,6 +2,10 @@
 
 .reviews__item {
 	position: relative;
+	
+	@media (max-width: $mobile-sm) {
+		margin-bottom: 30px;
+	}
 }
 
 .reviews__cite {
