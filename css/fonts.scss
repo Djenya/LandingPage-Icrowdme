@@ -1,37 +1,67 @@
 /* Font - OpenSans */
+
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+  src: url('../fonts/opensans-light.eot');
+  src: url('../fonts/opensans-light.eot?#iefix') format('embedded-opentype'),
+       url("../fonts/opensans-light.woff2") format("woff2"),
+       url('../fonts/opensans-light.woff') format('woff'),
+       url('../fonts/opensans-light.ttf') format('truetype'),
+       url('../fonts/opensans-light.svg#open_sansregular') format('svg');
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  src: url('../fonts/opensans-regular.eot');
+  src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+       url("../fonts/opensans-regular.woff2") format("woff2"),
+       url('../fonts/opensans-regular.woff') format('woff'),
+       url('../fonts/opensans-regular.ttf') format('truetype'),
+       url('../fonts/opensans-regular.svg#open_sansregular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  src: url('../fonts/opensans-semibold.eot');
+  src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+       url("../fonts/opensans-semibold.woff2") format("woff2"),
+       url('../fonts/opensans-semibold.woff') format('woff'),
+       url('../fonts/opensans-semibold.ttf') format('truetype'),
+       url('../fonts/opensans-semibold.svg#open_sansregular') format('svg');
   font-weight: 600;
   font-style: normal;
 }
 
 
 /* Nunito */
+
 @font-face {
   font-family: "Nunito";
-  src: url("../fonts/Nunito-Regular.ttf") format("truetype");
+  src: url('../fonts/nunito-regular.eot');
+  src: url('../fonts/nunito-regular.eot?#iefix') format('embedded-opentype'),
+       url("../fonts/nunito-regular.woff2") format("woff2"),
+       url('../fonts/nunito-regular.woff') format('woff'),
+       url('../fonts/nunito-regular.ttf') format('truetype'),
+       url('../fonts/nunito-regular.svg#open_sansregular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 
 
 /* Font - Montserrat */
+
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  src: url('../fonts/montserrat-regular.eot');
+  src: url('../fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+       url("../fonts/montserrat-regular.woff2") format("woff2"),
+       url('../fonts/montserrat-regular.woff') format('woff'),
+       url('../fonts/montserrat-regular.ttf') format('truetype'),
+       url('../fonts/montserrat-regular.svg#open_sansregular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
